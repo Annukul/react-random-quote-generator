@@ -33,7 +33,6 @@ function App() {
   }
 
   const randomQuote = Math.floor(Math.random() * 30);
-  console.log(randomQuote);
 
   return (
     <div className="container">
@@ -42,7 +41,6 @@ function App() {
 
         let newClass = "hide";
         if (randomQuote === id) {
-          console.log(randomQuote);
           newClass = "show";
         }
 
