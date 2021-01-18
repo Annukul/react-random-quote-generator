@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&family=Roboto:ital@1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-size: 20px;
+}
+
+.container {
+  background: url("./images/clouds.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10em;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.quote {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.author {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  background: #000000;
+  color: #ffffff;
+  padding: 0.2em 1em;
+}
