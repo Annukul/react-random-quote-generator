@@ -3,4 +3,4 @@
 # Deployed on heroku
 https://a-random-quote-generator.herokuapp.com/
 
-# Feel free to modify and use the code
+### Feel free to modify and use the code
